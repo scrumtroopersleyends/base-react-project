@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/base-react-project
+    docker:
+      - image: circleci/node:10.15.1-browsers-legacy
+    steps:
+      - checkout
+      
