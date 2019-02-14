@@ -1,0 +1,60 @@
+
+
+/*
+ * Contiene la plantilla del proyecto. Se pueden encontrar el archivo 
+ * reset para reiniciar los estilos CSS, algunas reglas tipográficas 
+ * y estilos estándares para los elementos HTML más comunes.
+ */
+@import "base/base";
+@import "base/typography";
+@import "base/animations";
+@import "base/reset";
+
+/*
+ * Contiene los estilos específicos para cada parte de la aplicacion. 
+ */
+@import "themes/theme";
+@import "themes/admin";
+
+/*
+ * Contiene los estilos específicos para cada página
+ */
+@import "pages/home";
+
+/*
+ * Contiene todo lo que tiene que ver con la distribución de la 
+ * aplicación. Esta carpeta debe contener hojas de estilo para 
+ * las partes principales del sitio.
+ */
+@import "partials/header";
+@import "partials/navigation";
+@import "partials/sidebar";
+@import "partials/grid";
+@import "partials/forms";
+@import "partials/footer";
+
+/*
+ * Contiene todo tipo de módulos específicos como por ejemplo, un 
+ * slider, un loader, un widget, y básicamente todo lo que esté en 
+ * esa misma línea. La aplicación debería estar compuesta, en su 
+ * mayoría, de pequeños módulos.
+ */
+@import "components/mainmenu";
+
+/*
+ * Reúne todas las herramientas y helpers de Sass utilizados en 
+ * todo el proyecto. Cada variable global, función, mixin y 
+ * placeholder debería estar en esta carpeta. La regla de oro 
+ * para esta carpeta es que no debe generar ni una sola línea 
+ * de CSS cuando se compila por si sola. Solo hay helpers de Sass.
+ */
+@import "helpers/mixins";
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/placeholders";
+
+/*
+ * La carpeta vendors/ contiene todos los archivos de estilos
+ * procedentes de librerías externas y frameworks utilizados.
+ */
+

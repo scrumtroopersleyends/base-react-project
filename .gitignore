@@ -59,3 +59,21 @@ typings/
 
 # next.js build output
 .next
+
+# node
+node_modules/
+
+# intellij IDE
+.idea/
+*.iml
+
+# eclipse
+.settings/
+.classpath
+.project
+
+# STS
+.springBeans
+
+# visual studio code
+.vscode/
